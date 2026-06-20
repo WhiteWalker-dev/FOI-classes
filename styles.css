@@ -1730,6 +1730,13 @@ body.dark-mode .pillar-icon {
     
     .hero-buttons {
         justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    
+    .btn-lg {
+        padding: 12px 24px;
+        font-size: 1rem;
     }
     
     .hero-stats {
