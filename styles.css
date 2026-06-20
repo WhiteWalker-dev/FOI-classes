@@ -1757,6 +1757,32 @@ body.dark-mode .pillar-icon {
         gap: 12px;
         text-align: center;
     }
+
+    /* Hide header buttons on mobile to avoid overflow */
+    .nav-actions .open-portal-btn,
+    .nav-actions .open-modal-btn {
+        display: none !important;
+    }
+
+    .hero-stats {
+        flex-wrap: wrap;
+        gap: 24px !important;
+    }
+
+    .testimonial-card {
+        padding: 24px !important;
+    }
+
+    @media (max-width: 480px) {
+        .hero-title {
+            font-size: 2.4rem !important;
+            letter-spacing: -0.8px;
+        }
+        .footer-grid {
+            grid-template-columns: 1fr !important;
+            gap: 24px;
+        }
+    }
 }
 
 /* ==========================================================================
